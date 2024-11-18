@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "161383353331",
+    "firebase_url": "https://enchufe-sc-default-rtdb.firebaseio.com",
+    "project_id": "enchufe-sc",
+    "storage_bucket": "enchufe-sc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161383353331:android:66a5aa1f646b2f1097a086",
+        "android_client_info": {
+          "package_name": "com.example.proyectotemperatura"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXNKu9Pzq34L5VINNmKKpW63HW339q22A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
