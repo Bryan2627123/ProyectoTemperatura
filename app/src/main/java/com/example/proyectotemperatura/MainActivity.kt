@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
         // Inicializa la referencia a la base de datos
         database = FirebaseDatabase.getInstance().reference
 
-        // Crear canal de notificaciones
+        // Aquí se crea el canal de notificaciones
         createNotificationChannel()
 
         setContent {
