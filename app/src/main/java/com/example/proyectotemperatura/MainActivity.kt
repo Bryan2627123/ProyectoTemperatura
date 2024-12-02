@@ -66,7 +66,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    // Crear un canal de notificaciones con sonido
+    // Aquí se crea un canal de notificaciones con sonido
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val name = "Temperature Alerts"
