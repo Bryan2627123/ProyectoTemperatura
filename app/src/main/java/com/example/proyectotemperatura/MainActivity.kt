@@ -104,7 +104,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    // Solicitar permiso para notificaciones
+    // Acá se solicita el permiso para las notificaciones
     private fun requestNotificationPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (ContextCompat.checkSelfPermission(
