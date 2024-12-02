@@ -27,10 +27,10 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Solicitar permiso para notificaciones
+        // Aquí se solicita permiso para notificaciones
         requestNotificationPermission()
 
-        // Inicializa la referencia a la base de datos
+        // En esta parte se inicializa la referencia a la base de datos
         database = FirebaseDatabase.getInstance().reference
 
         // Aquí se crea el canal de notificaciones
