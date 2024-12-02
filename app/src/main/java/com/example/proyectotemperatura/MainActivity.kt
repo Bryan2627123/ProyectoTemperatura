@@ -73,7 +73,7 @@ class MainActivity : ComponentActivity() {
             val descriptionText = "Notificaciones para alertas de temperatura"
             val importance = NotificationManager.IMPORTANCE_HIGH
 
-            // Configuración del sonido
+            // En esta parte se configura el sonido para la notificación
             val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
 
             val channel = NotificationChannel("TEMP_ALERT_CHANNEL", name, importance).apply {
