@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
             ProyectoTemperaturaTheme {
                 var temperature by remember { mutableStateOf(0.0) } // Valor inicial de la temperatura
 
-                // Escucha cambios en tiempo real en Firebase
+                // En esta parte se escucha los cambios en tiempo real en Firebase
                 LaunchedEffect(Unit) {
                     database.child("temperatura").addValueEventListener(object : ValueEventListener {
                         override fun onDataChange(snapshot: DataSnapshot) {
