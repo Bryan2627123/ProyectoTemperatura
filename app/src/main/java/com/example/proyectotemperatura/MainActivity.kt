@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
                         }
 
                         override fun onCancelled(error: DatabaseError) {
-                            // Manejo de errores de Firebase
+                            // Esto de aquí es para el manejo de errores de Firebase
                         }
                     })
                 }
