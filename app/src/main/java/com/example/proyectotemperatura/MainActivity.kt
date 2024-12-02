@@ -87,7 +87,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    // Mostrar notificación
+    // Aquí se muestra la notificación
     @SuppressLint("MissingPermission")
     private fun showNotification(temperature: Double) {
         val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
